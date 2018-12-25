@@ -1,0 +1,115 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Charm:400,700&subset=latin-ext,thai');
+
+body {
+  font: sans-serif 700 90px;
+  background-color: rgb(38, 204, 196);
+  color: white;
+}
+
+
+
+.calendar {
+  background-color: rgb(33, 18, 170);
+  max-width: 50%;
+  max-height: 80%;
+  margin: 10px auto;
+}
+.header {
+  color: #000000;
+  text-align: center;
+  font: oblique 700 50px 'Charm', cursive;
+  letter-spacing: 0.1em;
+}
+.days {
+  display: grid;
+  
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  /*
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  */
+  grid-gap: 10px;
+  justify-content: center;
+  height: 80%;
+  background: rgba(114, 186, 94, 0.05);
+  padding: 20px;
+}
+
+.days>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.days div:nth-child(1), div:nth-child(11), div:nth-child(21) {
+  background-color: rgb(20, 156, 197);
+}
+.days div:nth-child(2), div:nth-child(12), div:nth-child(22) {
+  background-color: rgb(184, 19, 88);
+}
+.days div:nth-child(3), div:nth-child(13), div:nth-child(30) {
+  background-color: rgb(123, 18, 150);
+}
+.days div:nth-child(4), div:nth-child(14), div:nth-child(4) {
+  background-color: #ffffff;
+  color: #000000;
+}
+.days div:nth-child(5), div:nth-child(15), div:nth-child(25) {
+  background-color: rgb(47, 167, 31);
+}
+.days div:nth-child(6), div:nth-child(16), div:nth-child(26) {
+  background-color: rgb(32, 161, 144);
+}
+.days div:nth-child(7), div:nth-child(17), div:nth-child(27) {
+  background-color: rgb(209, 144, 144);
+}
+.days div:nth-child(8), div:nth-child(18), div:nth-child(28) {
+  background-color: rgb(241, 0, 0);
+}
+.days div:nth-child(9), div:nth-child(19), div:nth-child(29) {
+  background-color: rgb(204, 240, 0);
+  color: #000000;
+}
+.days div:nth-child(10), div:nth-child(20), div:nth-child(24) {
+  background-color: #C490D1;
+}
+.days div:nth-child(23){
+  background-color: rgb(219, 30, 87);
+  grid-column: 5/-1;
+  grid-row: 4/6;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font: 700 20px italic ;
+}
+a {
+  text-decoration: none;
+}
+a:hover{
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+
+.my-work {
+  width: 90em;
+  white-space:nowrap;
+  overflow:hidden;
+  
+  -webkit-animation: type 3s steps(50, end) infinite;
+  animation: type 8s steps(50, end) infinite;
+} 
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}

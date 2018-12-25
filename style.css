@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+* {
+  background-color: #000000;
+  color: #ffffff;
+  font: 
+}
+
+/* header */
+h1 {
+  font: 'Lobster', cursive, 2rem, 700, italic;
+  letter-spacing: 0.09rem;
+  margin-left: 2rem;
+}
+
+/* content*/
+h4  {
+  color: #E5320C;
+  line-height: 1.4rem;
+  text-transform: capitalize;
+  margin-left: 2rem;
+}
+li {
+  word-spacing: 0.09rem;
+  line-height: 1.4rem;
+}
+.books {
+  text-decoration: underline dashed;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+.orin {
+  line-height: 1.7rem;
+}
+a:visited {
+  background-color: #fff;
+  color: #2018D1;
+}
+a:visited {
+  background-color: #fff;
+  color: #2018D1;
+}
+a:hover {
+  background-color: #162c0c;
+  color: rgba(209, 24, 194, 0.452);
+}a:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(209, 24, 95);
+}

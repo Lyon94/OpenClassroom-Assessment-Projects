@@ -1,0 +1,87 @@
+
+
+body {
+  font: sans-serif 500 30px;
+  text-align: center;
+  background-color: rgb(38, 204, 196);
+  color: white;
+}
+header {
+  background-color: red;
+  width: 100%;
+  margin: -10px;
+  padding: 15px;
+  font: 500 30px Helvetica italic;
+}
+nav {
+  background-color: rgb(20, 48, 202);
+  margin: -10px;
+  padding: 5px;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 70px;
+}
+a {
+  text-decoration: none;
+  color: rgb(54, 50, 44);
+  font: 700 30px Helvetica oblique;
+}
+section {
+  width: 100%;
+  margin: 30px;
+  
+}
+.one {
+  background-color: #65F34A;
+  margin: 5px;
+  font-size: 32px;
+  padding: 32px;
+  border: #000000 5px solid;
+  display: inline-block;
+  width: 30%; 
+  box-sizing: border-box;
+}
+.two {
+  background-color: rgb(243, 74, 153);
+  margin: 5px;
+  font-size: 32px;
+  padding: 32px;
+  border: #000000 5px solid;
+  display: inline-block;
+  width: 30%; 
+  box-sizing: border-box;
+}
+.three {
+  background-color: #362f4b;
+  margin: 5px;
+  font-size: 32px;
+  padding: 32px;
+  border: #000000 5px solid;
+  display: inline-block;
+  width: 30%; 
+  box-sizing: border-box;
+}
+.foo2 {
+  visibility: hidden;
+}
+@media all and (max-width: 700px) {
+  li {
+    display: block;
+    margin: 10px 0;
+  }
+  .one, .two, .three {
+    display: block;
+    margin: 10px auto;
+  }
+  .foo2 {
+    visibility: visible;
+    /* display: show; */
+  }
+  .foo1 {
+    visibility: hidden;
+    /* display: none; */
+  }
+  
+}
