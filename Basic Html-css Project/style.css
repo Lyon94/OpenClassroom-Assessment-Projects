@@ -1,0 +1,52 @@
+
+
+
+
+* {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+/* header */
+h1 {
+  font: 700 7em oblique cursive ;
+  letter-spacing: 0.09rem;
+  margin: 0;
+  margin-left: 2em;
+}
+
+/* content*/
+h4  {
+  color: #E5320C;
+  line-height: 1.4rem;
+  text-transform: capitalize;
+  margin-left: 2rem;
+}
+li {
+  word-spacing: 0.09rem;
+  line-height: 1.4rem;
+}
+.books {
+  text-decoration: underline dashed;
+  text-transform: capitalize;
+}
+
+.orin {
+  line-height: 1.7rem;
+}
+a {
+  font: 700 20px italic;
+}
+a:visited {
+  background-color: rgb(13, 194, 28);
+  color: #2018D1;
+}
+a:hover {
+  background-color: #ffffff;
+  color: rgba(255, 4, 4, 0.452);
+}
+a:active {
+  background-color: rgb(18, 224, 231);
+  color: rgb(223, 12, 93);
+}

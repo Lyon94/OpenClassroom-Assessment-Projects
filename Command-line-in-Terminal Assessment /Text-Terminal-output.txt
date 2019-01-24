@@ -1,0 +1,79 @@
+ lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ mkdir art-museum-website
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ ls
+ AKANDA-CV.docx      'COVER LETTER.docx'  'hummu proj'    nons.txt
+ art-museum-website  'Final papers'        nonsense.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ mkdir css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ ls
+ AKANDA-CV.docx      'COVER LETTER.docx'  'Final papers'   nonsense.txt
+ art-museum-website   css                 'hummu proj'     nons.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ mv css art-museum-website/
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ ls
+ AKANDA-CV.docx      'COVER LETTER.docx'  'hummu proj'    nons.txt
+ art-museum-website  'Final papers'        nonsense.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ cd art-museum-website/
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ ls
+css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ mkdir img
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ mkdir js
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ ls
+css  img  js
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ touch 404.html
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ touch index.html
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ touch about.html
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ touch contact.html
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ touch robots.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ ls
+404.html  about.html  contact.html  css  img  index.html  js  robots.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ cd css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ touch main.css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ ../
+bash: ../: Is a directory
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ ..
+..: command not found
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ ../ touch main.js
+bash: ../: Is a directory
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ cd ../
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ cd js
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/js$ touch main.js
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/js$ cd ..
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ ls -a
+.  ..  404.html  about.html  contact.html  css  img  index.html  js  robots.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ cd css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ ls
+main.css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ cd js
+bash: cd: js: No such file or directory
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ ls
+main.css
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/css$ cd ../
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ cd js
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/js$ ls
+main.js
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website/js$ cd ../
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/art-museum-website$ cd ../
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ mkdir artworks
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ ls
+ AKANDA-CV.docx       artworks            'Final papers'   nonsense.txt   Terminal-input-text.txt
+ art-museum-website  'COVER LETTER.docx'  'hummu proj'     nons.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents$ cd artworks/
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks$ mkdir paintings
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks$ cd paintings/
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/paintings$ touch mona-lisa.jpg
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/paintings$ touch water-lilies.jpg
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/paintings$ touch guernica.jpg
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/paintings$ touch the-starry-night.jpg
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/paintings$ cd ../
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks$ mkdir artist-info
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks$ cd artist-info/
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/artist-info$ touch leonardo-da-vinci.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/artist-info$ touch claude-monet.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/artist-info$ touch pablo-picasso.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/artist-info$ touch vincent-van-gogh.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/artist-info$ ls
+claude-monet.txt  leonardo-da-vinci.txt  pablo-picasso.txt  vincent-van-gogh.txt
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks/artist-info$ cd ../
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks$ ls
+artist-info  paintings
+lyon94@Abass-HP-250-G3-Notebook-PC:~/Documents/artworks$ ls -a
+.  ..  artist-info  paintings
+
